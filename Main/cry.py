@@ -60,7 +60,10 @@ def cry1(filename):
     file=np.reshape(file,(1,36,5,1))
     result = np.argmax(loaded_model.predict(file), axis=-1)
     print("result : ", result)
-    print("0: babycry1 , 1: babycry2 , 2: Noise ")
+    print("0: babycry, 1: Noise ")
+    
+    
+    #print("0: babycry1 , 1: babycry2 , 2: Noise ")
 
     from datetime import datetime
 
