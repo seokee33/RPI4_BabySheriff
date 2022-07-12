@@ -5,8 +5,6 @@ import wave
 
 def capture(imgName):
     camid = 0
-    # 윈도우 사용자는 마지막에 cv2.CAP_DSHOW 추가
-    # 우분투에선 cam = cv2.VideoCapture(camid)
     cam = cv2.VideoCapture(camid, cv2.CAP_DSHOW)
     
     if cam.isOpened() == False:
