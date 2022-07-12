@@ -5,9 +5,9 @@ from firebase_admin import credentials
 from firebase_admin import db
 
 
-APIKEY = "AAAASAX4W9c:APA91bE5VC1dGpXud_tr2WoAHuBmde7UY-OVFqHeBDacjAvVeZFK5Imj5uTBJakJ_-D2tAvYALn4qid3BVF0Y_1udW1ooKFBI0rAXVUC4_tAuFe4dJN7C1vJcI3HOqeystTDmaIUkRjR"
+APIKEY = "??"
  
-TOKEN = "fkUXBcHVQWyA0ozykQRPyR:APA91bG2EeKF1Z_hTS4TWf6yyfawe5E1U3o0RhzQBV2LVcMweDJeQiiQR5kbOVd5Q9gV6egnzkgk8ZZ2sWPtc5cmqvGOp_vzzT_l6r_Y0Bfc9_2IvMETrrbJw9ZZBpy8hpWV9rHD5FPD"
+TOKEN = "??"
 
 #firebase
 cred = credentials.Certificate("babaysheriff-firebase-adminsdk-g1hpu-e27a3946fe.json")
