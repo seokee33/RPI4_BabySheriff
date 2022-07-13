@@ -1,7 +1,7 @@
 import requests
 import os
 import GPIOControll as gp
-ip = "192.168.43.117/gpio/1"
+ip = "???.???.??.???/gpio/1"
 def vibe():
     try:
         r = requests.get(ip) #url주소에 데이터 요청 
